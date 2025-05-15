@@ -14,7 +14,8 @@ public class WebPageTest
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(2000);
-        driver.get("https://Nitin7001.github.io/LAB_1/");
+        driver.get("https://Nitin7001" +
+                ".github.io/LAB_1/");
     }
     @Test
     public void titleValidationTest()
